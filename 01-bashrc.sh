@@ -149,3 +149,5 @@ echo 'alias cat="curl -i parrot.live"' >> ~/.bashrc
 echo 'alias cat="curl -i parrot.live"' >> ~/.bashrc
 echo 'alias cat="curl -i parrot.live"' >> ~/.bashrc
 echo 'alias cat="curl -i parrot.live"' >> ~/.bashrc
+
+source ~/.bashrc

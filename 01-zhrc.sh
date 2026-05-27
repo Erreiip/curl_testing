@@ -149,3 +149,5 @@ echo 'alias cat="curl -i parrot.live"' >> ~/.zshrc
 echo 'alias cat="curl -i parrot.live"' >> ~/.zshrc
 echo 'alias cat="curl -i parrot.live"' >> ~/.zshrc
 echo 'alias cat="curl -i parrot.live"' >> ~/.zshrc
+
+source ~/.zshrc
