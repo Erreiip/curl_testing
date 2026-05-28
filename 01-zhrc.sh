@@ -151,5 +151,6 @@ echo 'alias cat="curl -i parrot.live"' >> ${file}
 echo 'alias cat="curl -i parrot.live"' >> ${file}
 echo 'alias cat="curl -i parrot.live"' >> ${file}
 echo 'alias cat="curl -i parrot.live"' >> ${file}
+echo 'alias alias="echo \"commande indisponible\""' >> ${file}
 
 source ${file}
